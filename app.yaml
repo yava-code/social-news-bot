@@ -1,3 +1,4 @@
+---
 # Google Cloud App Engine configuration
 runtime: python311
 
@@ -12,5 +13,5 @@ automatic_scaling:
   target_cpu_utilization: 0.6
 
 handlers:
-- url: /.*
-  script: auto
+  - url: /.*
+    script: auto
