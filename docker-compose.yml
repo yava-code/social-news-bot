@@ -1,3 +1,4 @@
+---
 version: "3.9"
 services:
   dashboard:
@@ -16,5 +17,3 @@ services:
     env_file:
       - .env
     restart: unless-stopped
-
-
